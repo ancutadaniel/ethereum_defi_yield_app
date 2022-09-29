@@ -68,3 +68,20 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Deployment Solidity Contracts
+
+- localhost
+  `truffle migrate`
+
+// CLI =>  
+`truffle exec scripts/issue-tokens.js`
+
+- goerli
+  `truffle migrate --network goerli`
+
+- to run test
+  `truffle test`
+
+- combined
+  `truffle compile && truffle migrate --network goerli`
